@@ -1,0 +1,44 @@
+p{
+    color:#333;
+}
+/* id selector */
+#career{
+    color:blue;
+}
+/* pseudo element */
+input:hover{
+    background-color: rgb(162, 226, 43);
+color:aqua;
+}
+/* class selector */
+.note{
+    background-color: lightyellow;
+}
+/* desecent selector */
+div p{
+    color:green;
+    background-color: paleturquoise;
+}
+/* group selector */
+h1,h2{
+    text-align: center;
+}
+/* attribute selector */
+input[type="text"]{
+    border:2px solid black;
+    border-radius: 5px;
+}
+a:hover{
+    color:red;
+    background-color: aquamarine;
+}
+/* pseudo element */
+p::first-letter{
+    font-size: 30px;
+    color:darkgoldenrod;
+    font-weight: 200;
+    font-family: Times new Roman;
+}
+.input:active{
+    color:rgb(24, 38, 194);
+}
